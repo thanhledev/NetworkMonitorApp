@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyTheme"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyTitleTextStyle"  parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+    <style name="inputTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="android:textColorHint">@color/colorPrimaryText</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="mySuccessToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/colorGreen</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stColorBackground">@color/colorPrimaryDark</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">@color/colorSecondary</item>
+        <item name="stIconStart">@android:drawable/ic_dialog_info</item>
+        <item name="stLength">LONG</item> <!-- LONG or SHORT -->
+        <item name="stGravity">center</item> <!-- top or center -->
+        <item name="stRadius">5dp</item>
+    </style>
+    <style name="myFailedToast">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">@color/colorRed</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stColorBackground">@color/colorPrimaryDark</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">@color/colorSecondary</item>
+        <item name="stIconStart">@android:drawable/ic_dialog_alert</item>
+        <item name="stLength">LONG</item> <!-- LONG or SHORT -->
+        <item name="stGravity">center</item> <!-- top or center -->
+        <item name="stRadius">5dp</item>
+    </style>
+</resources>

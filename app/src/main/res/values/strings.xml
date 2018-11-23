@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Network Monitor</string>
+    <string-array name="screen_mode">
+        <item>Choose application mode</item>
+        <item>Server</item>
+        <item>Client</item>
+    </string-array>
+    <string-array name="protocol_mode">
+        <item>Choose sending protocol</item>
+        <item>TCP</item>
+        <item>UDP</item>
+    </string-array>
+    <string name="listening_port">Listening Port (*)</string>
+    <string name="serverIpAddress">Server Ip Address (*)</string>
+    <string name="serverListeningPort">Server Listening Port (*)</string>
+    <string name="clientSendingPort">Client Sending Port (*)</string>
+    <string name="messageSubject">Message Subject (*)</string>
+</resources>
